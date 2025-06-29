@@ -1,0 +1,31 @@
+body {
+  background-color: #f5f6fa;
+  font-family: "National Park", sans-serif;
+  font-weight: 400;
+}
+
+/* signUp */
+.signup-box {
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Home */
+.box-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Form */
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #a1a1a1;
+  outline: 0;
+  box-shadow: none;
+}

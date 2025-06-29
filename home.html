@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Files Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- WebSite Title -->
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Start NavBar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 shadow-lg"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <button id="loguot" class="btn btn-danger" aria-current="page">
+              LogOut
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End NavBar -->
+
+    <!-- Start Box Name -->
+    <section class="container">
+      <div class="box-name">
+        <h2 class="border border-2 border-black p-4 rounded-4 shadow-lg">
+          Welcome <span id="name"></span>
+        </h2>
+      </div>
+    </section>
+    <!-- End Box Name -->
+
+    <!-- Files JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
